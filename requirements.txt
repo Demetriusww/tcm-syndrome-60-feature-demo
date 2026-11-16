@@ -1,8 +1,7 @@
-# === Streamlit Community Cloud deployment - minimal set ===
-# app.py uses Streamlit 1.50 APIs such as width="stretch".
 streamlit
 numpy>=1.26,<2.0
 pandas>=2.1,<2.3
+plotly>=5.18
 faiss-cpu
 langchain
 langchain-community

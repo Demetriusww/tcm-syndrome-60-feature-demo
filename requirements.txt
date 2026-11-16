@@ -1,12 +1,11 @@
 # === Streamlit Community Cloud deployment - minimal set ===
 # app.py uses Streamlit 1.50 APIs such as width="stretch".
-streamlit==1.50.0
-# Keep these pins aligned with the paper EBM artifact and its verified runtime.
-numpy==1.24.4
-pandas==1.4.4
-scikit-learn==1.0.2
-scipy==1.9.1
-joblib==1.1.0
-interpret-core[ebm]==0.4.1
-plotly>=5.15
-openai>=1.0
+streamlit
+numpy>=1.26,<2.0
+pandas>=2.1,<2.3
+faiss-cpu
+langchain
+langchain-community
+transformers
+torch
+accelerate
